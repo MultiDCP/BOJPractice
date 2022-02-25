@@ -6,5 +6,7 @@
 
 |문제 번호|문제 이름|예상 사용 알고리즘|
 |:---:|:---:|:---:|
-|[1729](https://www.acmicpc.net/problem/1729)|이차원 배열의 합|브루트 포스, 백트래킹|
+|[1181](https://www.acmicpc.net/problem/1181)|단어 정렬|정렬|
 |[1918](https://www.acmicpc.net/problem/1918)|후위 표기식|스택|
+|[2504](https://www.acmicpc.net/problem/1918)|괄호의 값|스택|
+|[1729](https://www.acmicpc.net/problem/1729)|이차원 배열의 합|브루트 포스, 백트래킹|
