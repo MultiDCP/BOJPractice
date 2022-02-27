@@ -24,8 +24,8 @@ int main(void){
 
         bool isFind = false;
         
-        int start = v.front();
-        int final = v.back();
+        int start = 0;
+        int final = v.size()-1;
 
         while(start <= final){
             int mid = (start + final) / 2;
@@ -54,6 +54,12 @@ int main(void){
 }
 
 /*
-이진 탐색 맞다
-근데 왜 틀리는 거지
+런타임 에러가 발생했던 이유
+start와 final의 값으로는 인덱스를 넣어줬어야 했다.
+그런데 내가 front와 back의 값을 넣어버렸다
+일례로 1 2 4 8 16 32 같은 게 나오면
+(start + final) / 2 는 16이 나오는데 이를 인덱스에다 집어넣으면
+반드시 오류가 날 수밖에 없다
+이진탐색 만질 때 이런 점에 유의하자
+또한 이진탐색 알고리즘도 정확하게 명시해두자
 */
