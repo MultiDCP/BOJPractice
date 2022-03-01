@@ -9,7 +9,8 @@
 		"files.associations": {
 			"iostream": "cpp",
 			"limits": "cpp",
-			"regex": "cpp"
+			"regex": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }
