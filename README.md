@@ -10,3 +10,5 @@
 |[1918](https://www.acmicpc.net/problem/1918)|후위 표기식|스택|
 |[2504](https://www.acmicpc.net/problem/1918)|괄호의 값|스택|
 |[1729](https://www.acmicpc.net/problem/1729)|이차원 배열의 합|브루트 포스, 백트래킹|
+|[1629](https://www.acmicpc.net/problem/1629)|곱셈|재귀, 분할 정복|
+|[11729](https://www.acmicpc.net/problem/11729)|하노이 탑 이동 순서|재귀|
