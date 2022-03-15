@@ -7,7 +7,6 @@
 |문제 번호|문제 이름|예상 사용 알고리즘|
 |:---:|:---:|:---:|
 |[1729](https://www.acmicpc.net/problem/1729)|이차원 배열의 합|브루트 포스, 백트래킹|
-|[1918](https://www.acmicpc.net/problem/1918)|후위 표기식|스택|
 |[2447](https://www.acmicpc.net/problem/2447)|별 찍기 - 10|재귀, 분할 정복|
 |[2504](https://www.acmicpc.net/problem/1918)|괄호의 값|스택|
 |[5430](https://www.acmicpc.net/problem/5430)|AC|구현, 자료 구조, 문자열, 파싱, 덱|
@@ -21,6 +20,7 @@
 |[1182](https://www.acmicpc.net/problem/1182)|부분수열의 합|브루트 포스, 백트래킹|
 |[1475](https://www.acmicpc.net/problem/1475)|방 번호|구현|
 |[1629](https://www.acmicpc.net/problem/1629)|곱셈|재귀, 분할 정복|
+|[1918](https://www.acmicpc.net/problem/1918)|후위 표기식|스택|
 |[2750](https://www.acmicpc.net/problem/2750)|수 정렬하기|정렬(퀵 정렬 사용할 것)|
 |[9663](https://www.acmicpc.net/problem/9663)|N-Queen|백트래킹|
 |[11729](https://www.acmicpc.net/problem/11729)|하노이 탑 이동 순서|재귀|
