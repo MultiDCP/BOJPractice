@@ -16,12 +16,13 @@
 
 |문제 번호|문제 이름|사용 알고리즘|
 |:---:|:---:|:---:|
-|[1181](https://www.acmicpc.net/problem/1181)|단어 정렬|정렬|
-|[1182](https://www.acmicpc.net/problem/1182)|부분수열의 합|브루트 포스, 백트래킹|
 |[1475](https://www.acmicpc.net/problem/1475)|방 번호|구현|
-|[1629](https://www.acmicpc.net/problem/1629)|곱셈|재귀, 분할 정복|
 |[1918](https://www.acmicpc.net/problem/1918)|후위 표기식|스택|
+|[1181](https://www.acmicpc.net/problem/1181)|단어 정렬|정렬|
 |[2750](https://www.acmicpc.net/problem/2750)|수 정렬하기|정렬(퀵 정렬 사용할 것)|
-|[9663](https://www.acmicpc.net/problem/9663)|N-Queen|백트래킹|
+|[1629](https://www.acmicpc.net/problem/1629)|곱셈|재귀, 분할 정복|
 |[11729](https://www.acmicpc.net/problem/11729)|하노이 탑 이동 순서|재귀|
-|[15649](https://www.acmicpc.net/problem/15649)|N과 M (1)|백트래킹|
+|[1182](https://www.acmicpc.net/problem/1182)|부분수열의 합|브루트 포스, 백트래킹|
+|[9663](https://www.acmicpc.net/problem/9663)|N-Queen|백트래킹|
+|[1463](https://www.acmicpc.net/problem/1463)|1로 만들기|다이나믹 프로그래밍|
+|[2579](https://www.acmicpc.net/problem/1918)|계단 오르기|다이나믹 프로그래밍|
