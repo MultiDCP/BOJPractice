@@ -25,4 +25,6 @@
 |[1182](https://www.acmicpc.net/problem/1182)|부분수열의 합|브루트 포스, 백트래킹|
 |[9663](https://www.acmicpc.net/problem/9663)|N-Queen|백트래킹|
 |[1463](https://www.acmicpc.net/problem/1463)|1로 만들기|다이나믹 프로그래밍|
-|[2579](https://www.acmicpc.net/problem/1918)|계단 오르기|다이나믹 프로그래밍|
+|[1912](https://www.acmicpc.net/problem/1912)|연속합|다이나믹 프로그래밍|
+|[2579](https://www.acmicpc.net/problem/2579)|계단 오르기|다이나믹 프로그래밍|
+|[11726](https://www.acmicpc.net/problem/11726)|2xn 타일링|다이나믹 프로그래밍|
