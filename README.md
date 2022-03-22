@@ -9,6 +9,8 @@
 |[1729](https://www.acmicpc.net/problem/1729)|이차원 배열의 합|브루트 포스, 백트래킹|
 |[2447](https://www.acmicpc.net/problem/2447)|별 찍기 - 10|재귀, 분할 정복|
 |[5430](https://www.acmicpc.net/problem/5430)|AC|구현, 자료 구조, 문자열, 파싱, 덱|
+|[2293](https://www.acmicpc.net/problem/2293)|동전 1|다이나믹 프로그래밍|
+|[11053](https://www.acmicpc.net/problem/11053)|가장 긴 증가하는 부분 수열|다이나믹 프로그래밍|
 
 
 다음은 정답을 맞히거나 제출하는 데에 성공했지만, 강의를 따라가거나 힌트를 참고하여, 혹은 스스로 복습의 필요성을 느끼거나 이전에 틀린 적이 있어 시간이 지나고 복습이 반드시 필요한 문제들이다.
