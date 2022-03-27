@@ -3,7 +3,7 @@ using namespace std;
 
 int n;
 int minV = 0x7f7f7f7f;
-void bag(int n, int cur){
+void bag(int n, int cur){ // 재귀를 이용해 계산함
     if(n < 3)
         if(n == 0)
             minV = min(minV, cur);

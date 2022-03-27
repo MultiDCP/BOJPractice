@@ -14,20 +14,17 @@ int main(void){
     int min = 1000000;
     cin >> n >> k;
 
-    if(n >= k){
+    if(n >= k) // 동생이 수빈보다 뒤에 있는 경우 -1로만 이동할 수 있으므로 전체 값을 출력한다
         cout << abs(k-n);
-    }
     else{
-        for(int i=0; i<=k; i++){
+        for(int i=0; i<=k; i++)
             dis[i] = -1;
-        }
-
         queue<int> q;
 
         q.push(n);
         dis[n] = 0;
 
-        while(!isFind){
+        while(!isFind){ // BFS를 시행한다. 먼저 도달하는 값이 최소 이동값이다.
             int cur = q.front();
             if(cur == k){
                 cout << dis[cur];

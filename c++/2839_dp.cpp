@@ -2,7 +2,7 @@
 using namespace std;
 int n;
 int d[5001];
-int main(void){
+int main(void){ // DP를 이용해 풀이함
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);

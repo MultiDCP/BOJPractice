@@ -11,7 +11,6 @@ int main(void){
         cin >> h >> w >> n;
         int res = 1;
         
-        //res = 100 * (n % h) + 1 + (n / h);
         while(n > 0){
             while(n > h){
                 res++;

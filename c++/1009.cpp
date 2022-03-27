@@ -9,7 +9,7 @@ int main(void){
 
     cin >> n;
     
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++){ // 제곱이 반복되면 1의 자리가 같아지는 점을 이용해 1의 자리만을 계산함
         cin >> a >> b;
         int tmp = 1;
         for(int j=0; j<b; j++){

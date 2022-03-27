@@ -6,7 +6,7 @@ int n, m;
 int maxS = -1;
 int b[500][500];
 
-void block1(int i, int j){
+void block1(int i, int j){ // |자 블록 관리
     if(i+3 >= n) return;
     int one = 0;
     for(int k=0; k<4; k++)
@@ -14,7 +14,7 @@ void block1(int i, int j){
     maxS = max(one, maxS);
 }
 
-void block1_1(int i, int j){
+void block1_1(int i, int j){ // ㅡ자 블록 관리
     if(j+3 >= m) return;
     int two = 0;
     for(int k=0; k<4; k++)
@@ -22,7 +22,7 @@ void block1_1(int i, int j){
     maxS = max(two, maxS);
 }
 
-void block2(int i, int j){
+void block2(int i, int j){ // 2*2 블록 관리
     if(i+1 >= n || j+1 >= m) return;
     int tmp = 0;
     for(int k=0; k<2; k++)
@@ -31,12 +31,12 @@ void block2(int i, int j){
     maxS = max(tmp, maxS);
 }
 
-void block3(int i, int j){ // 2*3 관리
+void block3(int i, int j){ // 2*3 블록 관리
     if(i+1 >= n || j+2 >= m) return;
     static pair<int, int> p[6]
         = {{1, 0}, {1, 1}, {1, 2}, {0, 0}, {0, 1}, {0, 2}};
     int tmp = 0;
-    for(int k=0; k<2; k++){
+    for(int k=0; k<2; k++){ // ㅗ, ㄴ자 블록 관리
         for(int l=0; l<3; l++)
             tmp += b[i+k][j+l];
         if(k == 0)
@@ -47,19 +47,19 @@ void block3(int i, int j){ // 2*3 관리
                 maxS = max(maxS, tmp + b[i+p[q+3].X][j+p[q+3].Y]);
         tmp = 0;
     }
-    for(int k=0; k<2; k++)
+    for(int k=0; k<2; k++) // ㄹ자 블록 관리
         for(int l=0; l<3; l++)
             tmp += b[i+k][j+l];
     maxS = max(maxS, tmp - b[i+1][j+2] - b[i][j]);
     maxS = max(maxS, tmp - b[i+1][j] - b[i][j+2]);
 }
 
-void block4(int i, int j){
+void block4(int i, int j){ // 3*2 블록 관리
     if(i+2 >= n || j+1 >= m) return;
     static pair<int, int> p[6]
         = {{0, 1}, {1, 1}, {2, 1}, {0, 0}, {1, 0}, {2, 0}};
     int tmp = 0;
-    for(int k=0; k<2; k++){
+    for(int k=0; k<2; k++){ // ㅏ, L자 블록 관리
         for(int l=0; l<3; l++)
             tmp += b[i+l][j+k];
         if(k == 0)
@@ -70,7 +70,7 @@ void block4(int i, int j){
                 maxS = max(maxS, tmp + b[i+p[q+3].X][j+p[q+3].Y]);
         tmp = 0;
     }
-    for(int k=0; k<2; k++)
+    for(int k=0; k<2; k++) // 세운 ㄹ자 블록 관리
         for(int l=0; l<3; l++)
             tmp += b[i+l][j+k];
     maxS = max(maxS, tmp - b[i+2][j+1] - b[i][j]);
