@@ -4,8 +4,10 @@ int t;
 int mod(int m, int n, int x, int y){
     if(x == m) x = 0;
     if(y == n) y = 0;
-    for(int i=x; i<=m*n/__gcd(m, n); i=i+m)
+    for(int i=x; i<=m*n/__gcd(m, n); i=i+m){
+        if(i == 0) continue;
         if(i % m == x && i % n == y) return i;
+    }
     return -1;
 }
 int main(void){
